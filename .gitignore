@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Local secrets
+.env
+key.txt
+
+# Runtime outputs
+outputs/
+responses/
+GraphGym/run/results/
+GraphGym/run/configs/generated/
+
+# Downloaded PyG caches can become large; keep only released property JSON files.
+GraphGym/run/datasets/**/raw/
+GraphGym/run/datasets/**/processed/
+GraphGym/run/datasets/**/*.pkl
